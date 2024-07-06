@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colors"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activity2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/mySwitch"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="210dp"
+            android:background="#FFFFFF"
+            android:text="Avto Back"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/qora"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:text="Qora"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/sariq"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Sariq"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/qizil"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF0000"
+        android:text="Qizil"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/yashil"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#01C809"
+        android:text="Yashil"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/kok"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#0023FF"
+        android:text="Ko'k"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/pushti"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#FF00F2"
+        android:text="Pushti"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/binafsha"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_margin="5dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Binafsha"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:cornerRadius="5dp" />
+
+</LinearLayout>

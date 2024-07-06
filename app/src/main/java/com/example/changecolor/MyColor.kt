@@ -1,0 +1,1 @@
+package com.example.changecolorimport android.widget.Switchobject MyColor {    var color = ""    var svich = false}

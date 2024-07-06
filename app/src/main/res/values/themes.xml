@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChangeColor" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">#FDE603</item>
+    </style>
+
+    <style name="Theme.ChangeColor" parent="Base.Theme.ChangeColor" />
+</resources>
